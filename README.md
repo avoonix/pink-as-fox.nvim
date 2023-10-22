@@ -129,7 +129,7 @@ local c = colors.components -- component color palette
 
 The code for this theme is based on [midnight.nvim](https://github.com/dasupradyumna/midnight.nvim) and [vscode.nvim](https://github.com/Mofiqul/vscode.nvim).
 
-The colors are based on [logseq-pink-as-fox-theme](https://github.com/avoonix/logseq-pink-as-fox-theme) and [vscode-pink-as-fox-them](https://github.com/avoonix/vscode-pink-as-fox-theme).
+The colors are based on [logseq-pink-as-fox-theme](https://github.com/avoonix/logseq-pink-as-fox-theme) and [vscode-pink-as-fox-theme](https://github.com/avoonix/vscode-pink-as-fox-theme).
 
 ## License
 
