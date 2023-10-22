@@ -6,7 +6,7 @@ A black and pink theme for [neovim](https://github.com/neovim/neovim).
 
 <div align="center">
 
-![pink-as-fox.nvim Neovim Theme Showcase](showcase/screenshot neovim pink as fox amoled theme showcase.png)
+<img alt="pink-as-fox.nvim Neovim Theme Showcase" src="showcase/screenshot neovim pink as fox amoled theme showcase.png">
 
 </div>
 
