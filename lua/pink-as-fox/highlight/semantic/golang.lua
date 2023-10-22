@@ -1,0 +1,30 @@
+local v = require('pink-as-fox.colors').vscode
+
+return {
+    goPackage = { fg = v.vscBlue, bg = 'NONE' },
+    goImport = { fg = v.vscBlue, bg = 'NONE' },
+    goVar = { fg = v.vscBlue, bg = 'NONE' },
+    goConst = { fg = v.vscBlue, bg = 'NONE' },
+    goStatement = { fg = v.vscPink, bg = 'NONE' },
+    goType = { fg = v.vscBlueGreen, bg = 'NONE' },
+    goSignedInts = { fg = v.vscBlueGreen, bg = 'NONE' },
+    goUnsignedInts = { fg = v.vscBlueGreen, bg = 'NONE' },
+    goFloats = { fg = v.vscBlueGreen, bg = 'NONE' },
+    goComplexes = { fg = v.vscBlueGreen, bg = 'NONE' },
+    goBuiltins = { fg = v.vscYellow, bg = 'NONE' },
+    goBoolean = { fg = v.vscBlue, bg = 'NONE' },
+    goPredefinedIdentifiers = { fg = v.vscBlue, bg = 'NONE' },
+    goTodo = { fg = v.vscGreen, bg = 'NONE' },
+    goDeclaration = { fg = v.vscBlue, bg = 'NONE' },
+    goDeclType = { fg = v.vscBlue, bg = 'NONE' },
+    goTypeDecl = { fg = v.vscBlue, bg = 'NONE' },
+    goTypeName = { fg = v.vscBlueGreen, bg = 'NONE' },
+    goVarAssign = { fg = v.vscLightBlue, bg = 'NONE' },
+    goVarDefs = { fg = v.vscLightBlue, bg = 'NONE' },
+    goReceiver = { fg = v.vscFront, bg = 'NONE' },
+    goReceiverType = { fg = v.vscFront, bg = 'NONE' },
+    goFunctionCall = { fg = v.vscYellow, bg = 'NONE' },
+    goMethodCall = { fg = v.vscYellow, bg = 'NONE' },
+    goSingleDecl = { fg = v.vscLightBlue, bg = 'NONE' },
+}
+

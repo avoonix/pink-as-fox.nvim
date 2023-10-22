@@ -2,9 +2,13 @@
 
 A black and pink theme for [neovim](https://github.com/neovim/neovim).
 
-<!-- ## Showcase -->
-<!-- ![Main 1](showcase/main1.png "main_1") -->
-<!-- ![Main 2](showcase/main2.png "main_2") -->
+> Still work in progress!
+
+<div align="center">
+
+![pink-as-fox.nvim Neovim Theme Showcase](showcase/screenshot neovim pink as fox amoled theme showcase.png)
+
+</div>
 
 <!-- ## Features -->
 

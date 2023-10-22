@@ -1,5 +1,3 @@
------------------------------------------ MIDNIGHT MODULE ------------------------------------------
-
 local config = require 'pink-as-fox.config'
 
 local M = {}

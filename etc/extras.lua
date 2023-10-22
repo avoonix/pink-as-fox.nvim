@@ -1,5 +1,3 @@
------------------------------------- MIDNIGHT EXTRAS GENERATOR -------------------------------------
-
 vim.opt.rtp:append '.'
 
 -- the core color palette

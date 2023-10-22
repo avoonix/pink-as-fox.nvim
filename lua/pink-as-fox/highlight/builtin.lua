@@ -1,5 +1,3 @@
-----------------------------------------------------------------------------------------------------
-
 local p = require('pink-as-fox.colors').palette
 local c = require('pink-as-fox.colors').components
 

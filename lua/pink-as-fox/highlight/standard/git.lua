@@ -14,4 +14,9 @@ return {
   gitCommitDiscardedType = { fg = c.error },
   gitCommitUntrackedFile = { fg = p.gray[2] },
   gitIgnorePattern = { link = 'Identifier' },
+
+  -- Legacy groups for official git.vim and diff.vim syntax
+  diffAdded = { link = 'DiffAdd' },
+  diffChanged = { link = 'DiffChange' },
+  diffRemoved = { link = 'DiffDelete' },
 }

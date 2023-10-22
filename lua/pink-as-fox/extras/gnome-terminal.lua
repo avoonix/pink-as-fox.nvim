@@ -11,7 +11,7 @@ Usage: ./pink-as-fox.sh [-d] [-e] [-h] [-n PROFILE_NAME] [-u PROFILE_UUID]
     -d :  sets the new terminal profile as the default
     -e :  sets extra non-theme settings (to get the showcase UI appearance)
     -h :  show this help message
-    -n PROFILE_NAME:  the terminal profile name (default: Midnight)
+    -n PROFILE_NAME:  the terminal profile name (default: PinkAsFox)
     -u PROFILE_UUID:  UUID to use for terminal profile ID'
 
 function usage_help {
@@ -31,7 +31,7 @@ function usage_error {
 [[ -z "$1" || "$1" =~ ^\-.$ ]] .. ']]' .. [[ || usage_error 'ERROR: Invalid positional arguments before options'
 
 # set default arguments
-profile_name=Midnight
+profile_name=PinkAsFox
 profile_uuid=
 set_as_default=0
 set_non_theme_extras=0

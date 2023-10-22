@@ -1,5 +1,3 @@
------------------------------------------- CONFIGURATION -------------------------------------------
-
 local M = {}
 
 ---@type boolean whether highlights have been loaded or not
