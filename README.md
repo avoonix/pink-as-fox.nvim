@@ -23,7 +23,7 @@ uniform looking theme, whereas too much emphasis on the latter would cause the s
 have sharp changes in color straining the eyes. I created this colorscheme to find the perfect
 balance between both, to provide focus and clarity while ensuring a healthy contrast level.
 
-**midnight.nvim** leans towards mostly using shades of gray, followed by blue-green shades for a
+**pink-as-fox.nvim** leans towards mostly using shades of gray, followed by blue-green shades for a
 cooler UI color experience, while using warmer colors only for syntax and status. Most colors have
 sufficiently low saturation so they do not stand out against the jet black background to avoid eye
 strain when working for a longer duration (particularly beneficial in low-light conditions).
@@ -67,7 +67,7 @@ Install the colorscheme using the package manager that you love!
 ```lua
 -- LazySpec (plugin specification)
 -- return {
-{ 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 }
+{ 'dasupradyumna/pink-as-fox.nvim', lazy = false, priority = 1000 }
 -- `lazy` and `priority` are only needed if this is your primary colorscheme to load it first
 -- }
 ```
@@ -77,13 +77,13 @@ Install the colorscheme using the package manager that you love!
 ```lua
 -- inside setup function
 -- packer.startup(function(use)
-use { 'dasupradyumna/midnight.nvim' }
+use { 'dasupradyumna/pink-as-fox.nvim' }
 -- end)
 ```
 
 ### Requirements
 
-***midnight.nvim*** is a *GUI-only* colorscheme. It requires GUI client or a modern terminal version
+***pink-as-fox.nvim*** is a *GUI-only* colorscheme. It requires GUI client or a modern terminal version
 of **neovim** installed in a
 [true-color supported](https://github.com/termstandard/colors#truecolor-support-in-output-devices)
 terminal emulator.
@@ -96,12 +96,12 @@ Add the following code snippet to load the colorscheme.
 
 ```lua
 -- Lua
-vim.cmd.colorscheme 'midnight'
+vim.cmd.colorscheme 'pink-as-fox'
 ```
 
 ```vim
 " VimScript
-colorscheme midnight
+colorscheme pink-as-fox
 ```
 
 ### Configuration
@@ -113,7 +113,7 @@ For now, users can directly add overriding higlight groups as arguments to the `
 Better options will be added in the future to make the colorscheme customization simpler.
 
 ```lua
-require('midnight').setup {
+require('pink-as-fox').setup {
     HighlightGroup = {
         fg = ForegroundColor, -- :h guifg
         bg = BackgroundColor, -- :h guibg
@@ -137,11 +137,11 @@ are not specified
 
 ### Color Palette
 
-Although quite limited in variety, **midnight.nvim** color palette can be used from
-[palette.lua](lua/midnight/palette.lua), if the user so wishes.
+Although quite limited in variety, **pink-as-fox.nvim** color palette can be used from
+[palette.lua](lua/pink-as-fox/palette.lua), if the user so wishes.
 
 ```lua
-local colors = require('midnight.colors')
+local colors = require('pink-as-fox.colors')
 local p = colors.palette -- raw color palette
 local c = colors.components -- component color palette
 ```
@@ -163,4 +163,4 @@ was inspired by **folke**'s [tokyonight.nvim](https://github.com/folke/tokyonigh
 
 ## License
 
-**midnight.nvim** is licensed under the *Apache License 2.0*.
+**pink-as-fox.nvim** is licensed under the *Apache License 2.0*.

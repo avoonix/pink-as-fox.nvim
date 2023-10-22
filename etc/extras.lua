@@ -4,9 +4,9 @@ vim.opt.rtp:append '.'
 
 -- the core color palette
 local colors = {
-  c = require('midnight.colors').components,
-  p = require('midnight.colors').palette,
-  t = require('midnight.colors').terminal,
+  c = require('pink-as-fox.colors').components,
+  p = require('pink-as-fox.colors').palette,
+  t = require('pink-as-fox.colors').terminal,
 }
 
 -- dictionary holding the metadata for all the extras
@@ -18,10 +18,10 @@ local extras = {
 
 local header_template = [[
 ########################################## MIDNIGHT THEME ##########################################
-# %s port of midnight.nvim theme
+# %s port of pink-as-fox.nvim theme
 # Author: Dasu Pradyumna [dasupradyumna@gmail.com]
 # License: Apache 2.0
-# [https://github.com/dasupradyumna/midnight.nvim/tree/main/%s]
+# [https://github.com/dasupradyumna/pink-as-fox.nvim/tree/main/%s]
 
 ]]
 
@@ -31,7 +31,7 @@ for extra, meta in pairs(extras) do
   if vim.fn.isdirectory(folder) == 0 then os.execute('mkdir -p ' .. folder) end
 
   -- ensure the extra file is writable
-  local filepath = ('%s/midnight.%s'):format(folder, meta.ext)
+  local filepath = ('%s/pink-as-fox.%s'):format(folder, meta.ext)
   local file = io.open(filepath, 'w+')
   if not file then error(filepath .. ' could not be opened. Please check.') end
 
@@ -39,7 +39,7 @@ for extra, meta in pairs(extras) do
   file:write(header_template:format(meta.name, filepath))
 
   -- substitute all the color codes in the extras file content
-  local content = require('midnight.extras.' .. extra)
+  local content = require('pink-as-fox.extras.' .. extra)
   content = content:gsub('%${(.-)}', function(color_code)
     -- split: [1] = 'p'/'c', [2] = color name, [3] = integer index if [1] = 'p' else nil
     local split = vim.split(color_code, '.', { plain = true, trimempty = true })
